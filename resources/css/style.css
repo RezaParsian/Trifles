@@ -2192,7 +2192,7 @@ right: 0;
 	top: 0
 }
 .harvesting-section {
-	background-image: url(/../img/harvesting/harvesting-bg.jpg);
+	background: linear-gradient(rgba(0, 0, 255, 0.4),rgba(0,0,255,0.4)), url(/../img/harvesting/harvesting-bg.jpg);
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat
@@ -3020,7 +3020,7 @@ left: 10px
 	border-bottom: 1px dashed #1a59ee
 }
 .cultivation-section {
-	background-color: #eef7ef
+	background-color: #eeeef7
 }
 .single-cultivation {
 	text-align: center;
@@ -7698,4 +7698,8 @@ margin-right: 0
 	opacity: 1;
 	visibility: visible;
 	top: 50%
+}
+
+.shop-item{
+	padding: 0 !important;
 }
